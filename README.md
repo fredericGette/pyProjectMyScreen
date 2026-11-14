@@ -4,7 +4,7 @@ Python replacement for Microsoft's *Project My Screen* (`ProjectMyScreenApp.exe`
 screen of a Windows Phone 8.1 device (Lumia 520) connected by USB and sends touch input and the
 hardware buttons back to the phone.
 
-Protocol: see `Lumia520/content/drivers/ufnvidstream.md` and `Lumia520/content/libraries/vidstream.md`.
+Protocol: see [`Lumia520/content/drivers/ufnvidstream.md`](https://github.com/fredericGette/Lumia520/blob/main/content/drivers/ufnvidstream.md) and [`Lumia520/content/libraries/vidstream.md`](https://github.com/fredericGette/Lumia520/blob/main/content/libraries/vidstream.md).
 
 ![Screen](./Capture001.PNG)
 
@@ -73,3 +73,7 @@ python pyprojectmyscreen.py [-v] [--scale 1.0] [--rotation auto|0|90|180|270] [-
 | Ctrl+Q / close window | Quit (the phone leaves projection mode) |
 
 The protocol can only send touch and the 3 hardware buttons. It can't send text from the keyboard.
+
+## Credits
+
+https://github.com/evolution124/WinPhoneProjection
