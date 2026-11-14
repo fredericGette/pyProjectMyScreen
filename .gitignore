@@ -1,0 +1,48 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# PyInstaller (mentioned in README for building a standalone .exe)
+*.spec
+build/
+dist/
+
+# --- Testing / tooling caches ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- App-specific ---
+# Exported CSV logs and multimeter session exports, if kept alongside the repo
+*.csv
+kiprim-history-*.csv
+kiprim-multimeter-*.csv
+
+# Local serial diagnostic captures, if you save raw_serial_test.py output to a file
+*.log
